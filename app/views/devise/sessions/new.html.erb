@@ -26,6 +26,8 @@
         </div>
       <% end %>
 
+      <%= button_to "Sign in with GitHub", user_github_omniauth_authorize_path %>
+
       <div class="row mt-4">
         <div class="col-6">
           <%= render "devise/shared/links" %>
