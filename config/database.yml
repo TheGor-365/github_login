@@ -8,12 +8,12 @@ default: &default
 
 development:
   <<: *default
-  database: facebook_login
+  database: github_login
 
 test:
   <<: *default
-  database: facebook_login_test
+  database: github_login_test
 
 production:
   <<: *default
-  database: facebook_login_production
+  database: github_login_production
