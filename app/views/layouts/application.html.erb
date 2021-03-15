@@ -13,15 +13,10 @@
   <body class="bg-light">
     <%= render 'layouts/nav' %>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <p class="text-success"><%= notice %></p>
-          <p class="text-danger"><%= alert %></p>
-          <%= yield %>
-        </div>
-      </div>
-    </div>
+    <p class="text-success"><%= notice %></p>
+    <p class="text-danger"><%= alert %></p>
+    
+    <%= yield %>
 
     <%= render 'layouts/footer' %>
   </body>
